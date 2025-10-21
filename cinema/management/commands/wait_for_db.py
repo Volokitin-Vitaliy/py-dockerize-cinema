@@ -4,7 +4,7 @@ import time
 
 
 def wait_for_db():
-    db_conn = connections['default']
+    db_conn = connections["default"]
     while True:
         try:
             db_conn.cursor()
